@@ -1,0 +1,5 @@
+---
+- hosts: [primaries]
+  tasks:
+    - name: test connection
+      ping:
