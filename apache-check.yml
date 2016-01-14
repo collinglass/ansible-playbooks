@@ -1,0 +1,5 @@
+---
+- hosts: [primaries]
+  tasks:
+    - name: make sure apache is running
+      service: name=httpd state=running
